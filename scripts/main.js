@@ -19,7 +19,7 @@ function LED_OFF(){
     let ros;
     let led;
     let data;
-    for(let i=1; i < 5; i++){
+    for(let i=1; i < 6; i++){
         name = '/led'+ i ;
         console.log(name)
         ros=new ROSLIB.Ros({url:'ws://'+location.hostname+':9090'});
